@@ -5,7 +5,7 @@ import {
   MenuItemsWrapper,
   ProfileWrapper,
 } from "./Header.styled";
-import Logo from "../../assets";
+import { Logo } from "../../assets";
 
 function Header() {
   return (

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
 display: flex;
-/* position: absolute; */
+position: absolute;
 top: 0;
 left: 0;
 right: 0;
@@ -26,6 +26,9 @@ span{
     :hover{
     background-color: rgba(0,0,0,0.1);
 }
+@media only screen and (max-width:1200px){
+    display: none;
+}
 }
 
 `
@@ -38,6 +41,9 @@ span{
     font-weight: 600;
     :hover{
     background-color: rgba(0,0,0,0.1);
+}
+@media only screen and (max-width:1200px){
+    display: none;
 }
 }
 `
