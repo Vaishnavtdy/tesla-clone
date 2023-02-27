@@ -17,10 +17,26 @@ function HomeSwiper() {
         </BottomItems>
       </ImageContainer>
       <ImageContainer>
+        <TopItems>
+          <h1>Model 4</h1>
+          <span>Leasing starting at $349/mo</span>
+        </TopItems>
         <img src={Home3} alt="" />
+        <BottomItems>
+          <Button primary>Custom Order</Button>
+          <Button>Demo Drive</Button>
+        </BottomItems>
       </ImageContainer>
       <ImageContainer>
+        <TopItems>
+          <h1>Model 5</h1>
+          <span>Leasing starting at $349/mo</span>
+        </TopItems>
         <img src={Home2} alt="" />
+        <BottomItems>
+          <Button primary>Custom Order</Button>
+          <Button>Demo Drive</Button>
+        </BottomItems>
       </ImageContainer>
     </HomeContainer>
   )

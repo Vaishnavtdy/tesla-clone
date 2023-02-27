@@ -1,12 +1,13 @@
 import styled from "styled-components";
 
 export const HomeContainer = styled.div`
-height: 95vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  height: 95vh;
 
 `
 export const ImageContainer = styled.div`
+position: relative;
 img{
   width: 100%;
   height: 95vh;
@@ -21,7 +22,7 @@ export const TopItems = styled.div`
 position: absolute;
 display: flex;
 flex-direction: column;
-top: 15%;
+top: 5%;
 width: 100%;
 align-items: center;
 `

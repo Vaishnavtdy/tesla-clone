@@ -1,5 +1,6 @@
 import styled from "styled-components";
 export const TopBarContainer = styled.div`
+top: 0;
  display: flex;
  justify-content: center;
  align-items: center;
