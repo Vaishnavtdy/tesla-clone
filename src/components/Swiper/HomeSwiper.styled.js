@@ -14,10 +14,7 @@ img{
   object-fit: cover;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-}
-
-`
-
+}`
 export const TopItems = styled.div`
 position: absolute;
 display: flex;
