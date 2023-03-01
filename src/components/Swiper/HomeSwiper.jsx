@@ -11,6 +11,7 @@ function HomeSwiper() {
           <span>Leasing starting at $349/mo</span>
         </TopItems>
         <img src={Home1} alt="" />
+
         <BottomItems>
           <Button primary>Custom Order</Button>
           <Button>Demo Drive</Button>

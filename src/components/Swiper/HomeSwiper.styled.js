@@ -29,6 +29,7 @@ display: flex;
 bottom: 5%;
 width: 100%;
 justify-content: center;
+
 column-gap: 20px;
 `
 export const Button = styled.button`
